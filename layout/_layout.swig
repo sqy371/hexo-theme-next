@@ -102,6 +102,8 @@
 
   {% block script_extra %}{% endblock %}
 
+  {% block audio %}{% endblock %}
+
   {% include '_scripts/boostrap.swig' %}
 
   {% include '_third-party/comments/index.swig' %}

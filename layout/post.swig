@@ -21,3 +21,7 @@
 {% block script_extra %}
   {% include '_scripts/pages/post-details.swig' %}
 {% endblock %}
+
+{% block audio %}
+  {% include '_scripts/audio.swig' %}
+{% endblock %}
